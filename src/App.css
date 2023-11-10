@@ -1,0 +1,198 @@
+body {
+    font-family: "Nintendo U", sans-serif
+}
+
+
+header {
+    height: 100px;
+    /* background-color: beige; */
+    border-bottom: 3px solid red;
+    display: flex;
+}
+
+header > div:first-child {
+    height: 100%;
+    width: 50%;
+    /* border: 1px solid red; */
+    /* background-color: beige; */
+    display: flex;
+    align-items: center;
+    padding-left: 30px;
+
+}
+
+header img {
+    height: 60px;
+}
+
+header >div:last-child {
+    height: 100%;
+    width: 50%;
+    /* border: 1px solid red;
+    background-color: lightpink; */
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    gap: 30px;
+    padding-right: 30px;
+    font-size: 22px;
+    font-weight: bold;
+
+}
+
+.welcoming {
+    height: 100vh;
+    /* background-color: lightgray; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.mainlist {
+    /* background-color: beige; */
+    /* height: 100vh; */
+    /* border: 1px solid black; */
+    width: 80vw;
+    margin: 25px auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+  
+}
+
+.h1 {
+    /* background-color: green; */
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.pokemonlist {
+    border: 2px solid black;
+    border-radius: 5px;
+    /* background-color: gray; */
+    width: 120px;
+    height: 170px;
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.loading {
+text-align: center;
+margin :300px;
+font-size: 25px;
+font-weight: bold;
+
+}
+
+.infos {
+    /* background-color: beige; */
+    display: flex;
+    height: 400px;
+    margin: 40px auto;
+    width: 30vw;
+
+    
+}
+
+.pokename {
+    /* background-color: red; */
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    gap: 10px;
+    align-items: center;
+    font-size: 28px;
+    font-weight: bold;
+    border: 3px solid black;
+    border-radius: 10px;
+    margin-right: 20px;
+
+  
+}
+
+.pokename > img {
+    height: 250px;
+    width: 220px;
+}
+
+.pokename h2 {
+    /* border: 0.3px solid black; */
+    padding: 5px 40px;
+    border-radius: 10px;
+    color: rgb(68, 62, 62);
+    background-color: rgb(238, 231, 231);
+}
+
+
+.title-info {
+
+    height: 100px;
+    /* background-color: red; */
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    font-size: 30px;
+    font-weight: bold;
+    
+   
+}
+
+
+.pokeskills {
+    /* background-color: green; */
+    width: 30%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    font-size: 17px;
+    font-weight: bold;
+   
+}
+
+.pokeskills p {
+    padding: 5px 20px;
+    border-radius: 10px;
+    color: rgb(68, 62, 62);
+    border: 2px solid black;
+ 
+}
+
+
+footer {
+    height: 100px;
+    border-top: 3px solid #FECA1B;
+    background-color: rgb(241, 234, 234);
+    color: #3761A8;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer a {
+    cursor: pointer;
+    text-decoration: none;
+    font-weight: bold;
+    color: inherit;
+    font-size: 17px;
+
+}
+a:hover {
+    color : #e0b114;
+}
